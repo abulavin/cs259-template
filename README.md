@@ -15,7 +15,7 @@ Note: Version 4 of the JavaCC plugin will only work with Gradle 6 and JDK 8.
 * `src/test/java` - Contains `AssignmentTest.java` JUnit tests.
 * `src/test/resources` - Contains individual test files, `solutions.txt` containing reasons for rejected programs, and `tests.json`, which stores for each test file the expected results of running the parser on that file.
 
-## Adding tests.
+## Adding tests
 
 You can add your own test cases in the JUnit test file (`src/test/java/AssignmentTest.java`) explicity, or include another test file to be ran as a text file under `src/test/java/resources`. If you include a test file you need to add the expected outcome to `tests.json` so that the output of your parser can be validated.
 
