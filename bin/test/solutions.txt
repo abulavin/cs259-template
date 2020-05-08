@@ -1,0 +1,35 @@
+01.txt: PASS
+02.txt: PASS
+03.txt: function is called DEF
+04.txt: MAIN is called somewhere
+05.txt: no space between bracket and semicolon
+06.txt: last function does not contain end of line character
+07.txt: parameter name is invalid (uppercase)
+08.txt: reference to undefined parameter
+09.txt: MAIN should not have a parameter definition
+10.txt: the body of a function contains whitespace
+11.txt: body contains negative integer
+12.txt: body contains decimal
+13.txt: contains parenthesis where a function is not called
+14.txt: function body is empty
+15.txt: call to non-existent function
+16.txt: same as 2.txt, different function order definition
+17.txt: same as 2.txt, different function order definition
+18.txt: MAIN is not defined
+19.txt: same function is defined twice
+20.txt: function name contains lower case letter
+21.txt: PASS
+22.txt: PASS
+23.txt: recursion
+24.txt: recursion
+25.txt: recursion
+26.txt: recursion
+27.txt: recursion
+28.txt: add three through function calls
+29.txt: syntax error with math ops
+30.txt: 29.txt without the syntax error
+31.txt: recursion
+32.txt: recursion
+33.txt: syntax error
+34.txt: syntax error
+35.txt: syntax error

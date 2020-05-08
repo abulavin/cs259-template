@@ -1,0 +1,2 @@
+DEF MAIN { 1+F(1) } ;
+DEF F x6 { 2+y } ;

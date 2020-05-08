@@ -1,0 +1,33 @@
+options {
+    STATIC = false;
+    LOOKAHEAD = 1;
+}
+PARSER_BEGIN(Assignment)
+    /* REMEMBER TO REMOVE THE PACKAGE LINE BEFORE SUBMISSION */
+    package PLMParser; 
+    import java.io.PrintStream;
+
+    public class Assignment {
+
+        public void parse(PrintStream output, PrintStream error) {
+            try {
+                start();
+                output.print("PASS\n");
+            } catch(TokenMgrError tokenError) {
+                output.print("FAIL");
+                error.print(tokenError.getMessage());
+            } catch(ParseException parseException) {
+                output.print("FAIL");
+                error.print(parseException.getMessage());
+            }
+        }
+
+        public static void main(String[] args) {
+            Assignment parser = new Assignment(System.in);
+            parser.parse(System.out, System.err);
+        }        
+    }
+
+PARSER_END(Assignment)
+
+protected void start(): {} { "Hello World" }
