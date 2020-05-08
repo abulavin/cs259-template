@@ -1,5 +1,5 @@
 # CS259 Coursework Template File
-This repository contains a Gradle project designed to serve as a starting point template for the University of Warwick CS259 Formal Languages coursework.
+This repository contains a Gradle project designed to serve as a starting point template for the University of Warwick CS259 Formal Languages coursework (as of 2020).
 
 ## Details
 * Gradle Version: 6.2.2
