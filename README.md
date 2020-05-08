@@ -6,6 +6,7 @@ This repository contains a Gradle project designed to serve as a starting point 
 * JavaCC Gradle plugin details [here.](https://github.com/IntershopCommunicationsAG/javacc-gradle-plugin).
 * JavaCC details and documentation [here.](https://github.com/javacc/javacc)
 * Unit testing framework: [JUnit 4.](https://junit.org/junit4/)
+
 Note: Version 4 of the JavaCC plugin will only work with Gradle 6 and JDK 8.
 ## Directory Structure
 * `src/main/javacc` - Contains the javacc for the parser (Assignment.jj).
