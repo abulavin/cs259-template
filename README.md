@@ -1,4 +1,4 @@
-# CS259 Coursework Template File.
+# CS259 Coursework Template File
 This repository contains a Gradle project designed to serve as a starting point template for the University of Warwick CS259 Formal Languages coursework.
 
 ## Details
@@ -25,3 +25,8 @@ You can add your own test cases in the JUnit test file (`src/test/java/Assignmen
 `gradle javacc`: Run `javacc` to produce Java source code from Assignment.jj
 
 `gradle test`: Run the unit tests.
+
+## Before you submit...
+Be sure to check the parser in an isolated environment without any package or Gradle dependencies, as listed in the assignment brief. This means you need to remove the `package PLMParser` at the top of the file and re-build the java source code. Submitting the JavaCC file with the `package` line at the top of the file won't pass automated testing as you cant just `java` run it like a normal .class file.
+
+
